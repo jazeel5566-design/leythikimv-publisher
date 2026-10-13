@@ -1,8 +1,11 @@
 {
  "account": "@leythikimv",
- "start_date": null,
+ "start_date": "2026-10-13",
  "post_time_maldives": "20:00",
- "approved_days": [],
+ "approved_days": [
+  1,
+  2
+ ],
  "days": {
   "1": {
    "title": "Always tired?",
