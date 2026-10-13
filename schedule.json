@@ -1,0 +1,304 @@
+{
+ "account": "@leythikimv",
+ "start_date": null,
+ "post_time_maldives": "20:00",
+ "approved_days": [],
+ "days": {
+  "1": {
+   "title": "Always tired?",
+   "carousel": [
+    {
+     "file": "day01/day01_s1_feed_en.jpg",
+     "alt": "Ley Thiki MV. Always tired?. It might be your blood."
+    },
+    {
+     "file": "day01/day01_s2_feed_en.jpg",
+     "alt": "Ley Thiki MV. Know anaemia in 28 days. One swipe a day. Four weeks. What is anaemia? — Week 1. Signs and testing — Week 2. The types, one by one — Week 3. Prevention — Week 4."
+    },
+    {
+     "file": "day01/day01_s3_feed_en.jpg",
+     "alt": "Ley Thiki MV. Don't miss a day. Follow @leythikimv — A new post every day. Turn on notifications — Be the first to swipe. Send this to a friend — The one who's always tired."
+    },
+    {
+     "file": "day01/day01_s1_feed_dv.jpg",
+     "alt": "Ley Thiki MV. އަބަދުވެސް ވަރުބަލިތަ؟. ސަބަބަކީ ލޭ ކަމަށް ވެދާނެ."
+    },
+    {
+     "file": "day01/day01_s2_feed_dv.jpg",
+     "alt": "Ley Thiki MV. 28 ދުވަހުން އެނީމިއާ ދެނެގަންނަމާ. ކޮންމެ ދުވަހަކު ސްވައިޕެއް. ހަތަރު ހަފްތާ. އެނީމިއާއަކީ ކޮބާ؟ — ހަފްތާ 1. އަލާމާތްތަކާއި ޓެސްޓް — ހަފްތާ 2. އެނީމިއާގެ ވައްތަރުތައް — ހަފްތާ 3. ދުރާލާ ރައްކާތެރިވުން — ހަފްތާ 4."
+    },
+    {
+     "file": "day01/day01_s3_feed_dv.jpg",
+     "alt": "Ley Thiki MV. އެއްވެސް ދުވަހެއް ނުގެއްލުވާ. @leythikimv ފޮލޯ ކުރައްވާ — ކޮންމެ ދުވަހަކު އާ ޕޯސްޓެއް. ނޮޓިފިކޭޝަން އޮން ކުރައްވާ — އެންމެ ފުރަތަމަ ބައްލަވާ. ރަހުމަތްތެރިއަކަށް ފޮނުވާލާ — އަބަދުވެސް ވަރުބަލިވާ މީހާއަށް."
+    }
+   ],
+   "stories": [
+    "day01/day01_s1_story_en.jpg",
+    "day01/day01_s2_story_en.jpg",
+    "day01/day01_s3_story_en.jpg",
+    "day01/day01_s1_story_dv.jpg",
+    "day01/day01_s2_story_dv.jpg",
+    "day01/day01_s3_story_dv.jpg"
+   ],
+   "caption": "Always tired? It might be your blood. 🩸\nAnaemia is common, and many young people have it without knowing.\nFor the next 28 days we'll break it down, one swipe a day: what it is, the signs, the types and how to prevent it.\nTell us: how often do you feel tired for no reason?\nFollow @leythikimv and send this to that friend who's always sleepy.\n\nއަބަދުވެސް ވަރުބަލިތަ؟ ސަބަބަކީ ލޭ ކަމަށް ވެދާނެ. 🩸\nއެނީމިއާއަކީ އާންމު ކަމެއް. ގިނަ ޒުވާނުންނަށް އެކަން ނޭނގި އެބަ ހުރެއެވެ.\nކުރިއަށް އޮތް 28 ދުވަހު، ކޮންމެ ދުވަހަކު ސްވައިޕަކުން: އެނީމިއާއަކީ ކޮބައިކަމާއި، އަލާމާތްތަކާއި، ވައްތަރުތަކާއި، ދުރާލާ ރައްކާތެރިވާނެ ގޮތް.\n@leythikimv ފޮލޯ ކުރައްވާ.\n\nEnglish slides first, then ދިވެހި — keep swiping.\nInformation only — see a doctor for advice.\n\n#Anaemia #Maldives #YouthHealth #LeyThikiMV #KnowYourBlood"
+  },
+  "2": {
+   "title": "What is anaemia?",
+   "carousel": [
+    {
+     "file": "day02/day02_s1_feed_en.jpg",
+     "alt": "Ley Thiki MV. What is anaemia?. Swipe. It takes 30 seconds."
+    },
+    {
+     "file": "day02/day02_s2_feed_en.jpg",
+     "alt": "Ley Thiki MV. The short answer. Too little haemoglobin. Haemoglobin is the part of your red blood cells that carries oxygen. With anaemia, your blood carries less of it."
+    },
+    {
+     "file": "day02/day02_s3_feed_en.jpg",
+     "alt": "Ley Thiki MV. Remember. It's a sign, not one disease. Anaemia has many possible causes. Finding the cause is the key to treating it."
+    },
+    {
+     "file": "day02/day02_s1_feed_dv.jpg",
+     "alt": "Ley Thiki MV. އެނީމިއާއަކީ ކޮބާ؟. 30 ސިކުންތު. ސްވައިޕް ކޮށްލާ."
+    },
+    {
+     "file": "day02/day02_s2_feed_dv.jpg",
+     "alt": "Ley Thiki MV. ކުރު ޖަވާބު. ހީމޮގްލޮބިން މަދުވުން. ހީމޮގްލޮބިނަކީ ރަތް ލޭގެ ސެލްތަކުގައި އޮކްސިޖަން އުފުލާ ބައެވެ. އެނީމިއާ ހުންނަ މީހެއްގެ ލެއިން އުފުލޭ އޮކްސިޖަން މަދުވެއެވެ."
+    },
+    {
+     "file": "day02/day02_s3_feed_dv.jpg",
+     "alt": "Ley Thiki MV. ހަނދާން ކުރޭ. މިއީ އަލާމާތެއް، ވަކި ބައްޔެއް ނޫން. އެނީމިއާ ޖެހޭ ސަބަބުތައް ގިނަ. ފަރުވާ ކުރުމުގެ ތަޅުދަނޑިއަކީ ސަބަބު ހޯދުމެވެ."
+    }
+   ],
+   "stories": [
+    "day02/day02_s1_story_en.jpg",
+    "day02/day02_s2_story_en.jpg",
+    "day02/day02_s3_story_en.jpg",
+    "day02/day02_s1_story_dv.jpg",
+    "day02/day02_s2_story_dv.jpg",
+    "day02/day02_s3_story_dv.jpg"
+   ],
+   "caption": "What is anaemia? 🩸 It means your blood has too little haemoglobin, the part of red blood cells that carries oxygen. Less haemoglobin = less oxygen reaching your body. And it is a sign of something else going on, not one single disease. Did you know this already?\n\nއެނީމިއާއަކީ ކޮބާ؟ 🩸 ލޭގައި ހީމޮގްލޮބިން މަދުވުމެވެ. ހީމޮގްލޮބިނަކީ ހަށިގަނޑަށް އޮކްސިޖަން އުފުލާ ބައެވެ. މިއީ ވަކި ބައްޔެއް ނޫން، އެހެން ކަމެއްގެ އަލާމާތެކެވެ.\n\nEnglish slides first, then ދިވެހި — keep swiping.\nInformation only — see a doctor for advice.\n\n#Anaemia #Maldives #YouthHealth #LeyThikiMV #KnowYourBlood"
+  },
+  "3": {
+   "title": "You know someone with anaemia.",
+   "carousel": [
+    {
+     "file": "day03/day03_s1_feed_en.jpg",
+     "alt": "Ley Thiki MV. You know someone with anaemia. Probably more than one."
+    },
+    {
+     "file": "day03/day03_s2_feed_en.jpg",
+     "alt": "Ley Thiki MV. Around the world. 30% of women aged 15–49 have anaemia. 40% of children aged 6–59 months have anaemia."
+    },
+    {
+     "file": "day03/day03_s3_feed_en.jpg",
+     "alt": "Ley Thiki MV. Why young people?. Growing fast — Your body needs more iron. Periods — Blood loss means iron loss. Skipped meals — Less iron on your plate."
+    },
+    {
+     "file": "day03/day03_s1_feed_dv.jpg",
+     "alt": "Ley Thiki MV. އެނީމިއާ ހުންނަ މީހަކު ތިބާއަށް އެނގޭނެ. އެކަކަށްވުރެ ގިނަ މީހުންވެސް."
+    },
+    {
+     "file": "day03/day03_s2_feed_dv.jpg",
+     "alt": "Ley Thiki MV. ދުނިޔޭގައި. 30% އުމުރުން 15–49 އަހަރުގެ އަންހެނުންގެ ތެރެއިން އެނީމިއާ ހުންނަ ނިސްބަތް. 40% 6–59 މަސްދުވަހުގެ ކުދިންގެ ތެރެއިން އެނީމިއާ ހުންނަ ނިސްބަތް."
+    },
+    {
+     "file": "day03/day03_s3_feed_dv.jpg",
+     "alt": "Ley Thiki MV. ޒުވާނުންނަށް ކީއްވެ؟. އަވަހަށް ބޮޑުވުން — ހަށިގަނޑަށް އިތުރަށް ދަގަނޑު ބޭނުންވޭ. މައްސަރު ކަންތައް — ލޭ ގެއްލުމާއެކު ދަގަނޑުވެސް ގެއްލޭ. ކެއުން ދޫކޮށްލުން — ކާނާއިން ލިބޭ ދަގަނޑު މަދުވޭ."
+    }
+   ],
+   "stories": [
+    "day03/day03_s1_story_en.jpg",
+    "day03/day03_s2_story_en.jpg",
+    "day03/day03_s3_story_en.jpg",
+    "day03/day03_s1_story_dv.jpg",
+    "day03/day03_s2_story_dv.jpg",
+    "day03/day03_s3_story_dv.jpg"
+   ],
+   "caption": "You know someone with anaemia. Probably more than one. 🩸 Worldwide, 30% of women aged 15–49 and 40% of children aged 6–59 months have it (WHO). Young people are at risk because of fast growth, periods and skipped meals. Tag a friend who needs to see this.\n\nއެނީމިއާ ހުންނަ މީހަކު ތިބާއަށް އެނގޭނެ. 🩸 ދުނިޔޭގައި އުމުރުން 15–49 އަހަރުގެ އަންހެނުންގެ 30% އަދި 6–59 މަސްދުވަހުގެ ކުދިންގެ 40% އަށް އެނީމިއާ ހުރެއެވެ (WHO).\n\nEnglish slides first, then ދިވެހި — keep swiping.\nInformation only — see a doctor for advice.\n\n#Anaemia #Maldives #YouthHealth #LeyThikiMV"
+  },
+  "4": {
+   "title": "Are you at higher risk?",
+   "carousel": [
+    {
+     "file": "day04/day04_s1_feed_en.jpg",
+     "alt": "Ley Thiki MV. Are you at higher risk?. Check these 3 lists."
+    },
+    {
+     "file": "day04/day04_s2_feed_en.jpg",
+     "alt": "Ley Thiki MV. List 1. Your body. Growth spurts — Teen years need more iron. Periods — Especially heavy ones. Pregnancy — Iron needs go up."
+    },
+    {
+     "file": "day04/day04_s3_feed_en.jpg",
+     "alt": "Ley Thiki MV. List 2. Your plate. Skipping meals — Breakfast counts. Little fish, eggs or greens — Fewer blood-building nutrients. Tea or coffee with meals — They reduce iron absorption."
+    },
+    {
+     "file": "day04/day04_s4_feed_en.jpg",
+     "alt": "Ley Thiki MV. List 3. Your family and health. Thalassaemia in the family — It is inherited. Long-term illness — Some conditions affect your blood. Ticked any? A simple blood test can check."
+    },
+    {
+     "file": "day04/day04_s1_feed_dv.jpg",
+     "alt": "Ley Thiki MV. ތިބާއަށް ނުރައްކާ ބޮޑުތަ؟. މި 3 ލިސްޓް ބަލާލާ."
+    },
+    {
+     "file": "day04/day04_s2_feed_dv.jpg",
+     "alt": "Ley Thiki MV. ލިސްޓް 1. ތިބާގެ ހަށިގަނޑު. އަވަހަށް ބޮޑުވާ އުމުރު — ޒުވާން އުމުރުގައި ދަގަނޑު އިތުރަށް ބޭނުންވޭ. މައްސަރު ކަންތައް — ޚާއްސަކޮށް ލޭ ގިނައިން އަންނަނަމަ. މާބަނޑުވުން — ދަގަނޑަށް ބޭނުންވާ މިންވަރު އިތުރުވޭ."
+    },
+    {
+     "file": "day04/day04_s3_feed_dv.jpg",
+     "alt": "Ley Thiki MV. ލިސްޓް 2. ތިބާގެ ތަށި. ކެއުން ދޫކޮށްލުން — ހެނދުނުގެ ނާސްތާ މުހިންމު. މަސް، ބިސް، ފަތްޕިލާ މަދުން ކެއުން — ލޭ އުފެއްދުމަށް ބޭނުންވާ މާއްދާތައް މަދުވޭ. ކެއުމާއެކު ސައި ނުވަތަ ކޮފީ ބުއިން — ހަށިގަނޑަށް ދަގަނޑު ލިބުން ދަށްކުރޭ."
+    },
+    {
+     "file": "day04/day04_s4_feed_dv.jpg",
+     "alt": "Ley Thiki MV. ލިސްޓް 3. ތިބާގެ އާއިލާ އާއި ސިއްހަތު. އާއިލާގައި ތެލެސީމިއާ ހުރުން — މިއީ ވާރުތަވާ ކަމެއް. ދިގު މުއްދަތުގެ ބަލިތައް — ބައެއް ބަލިތަކުން ލެއަށް އަސަރުކުރޭ. މީގެ ތެރެއިން ކަމެއް ތިބާއަށް ގުޅޭތަ؟ ލޭގެ ޓެސްޓަކުން ބެލިދާނެ."
+    }
+   ],
+   "stories": [
+    "day04/day04_s1_story_en.jpg",
+    "day04/day04_s2_story_en.jpg",
+    "day04/day04_s3_story_en.jpg",
+    "day04/day04_s4_story_en.jpg",
+    "day04/day04_s1_story_dv.jpg",
+    "day04/day04_s2_story_dv.jpg",
+    "day04/day04_s3_story_dv.jpg",
+    "day04/day04_s4_story_dv.jpg"
+   ],
+   "caption": "Are you at higher risk of anaemia? Check 3 lists: your body, your plate, your family. 🩸 Growth spurts, periods, skipped meals, tea with every meal, thalassaemia in the family. Ticked any? A simple blood test can check. Save this post.\n\nއެނީމިއާ ޖެހުމުގެ ނުރައްކާ ތިބާއަށް ބޮޑުތަ؟ 3 ލިސްޓް ބަލާލާ: ހަށިގަނޑު، ތަށި، އާއިލާ. 🩸 ކަމެއް ތިބާއަށް ގުޅޭނަމަ ލޭގެ ޓެސްޓަކުން ބެލިދާނެ.\n\nEnglish slides first, then ދިވެހި — keep swiping.\nInformation only — see a doctor for advice.\n\n#Anaemia #Maldives #YouthHealth #LeyThikiMV"
+  },
+  "5": {
+   "title": "Your body needs 3 things to build blood.",
+   "carousel": [
+    {
+     "file": "day05/day05_s1_feed_en.jpg",
+     "alt": "Ley Thiki MV. Your body needs 3 things to build blood. Do you get enough?."
+    },
+    {
+     "file": "day05/day05_s2_feed_en.jpg",
+     "alt": "Ley Thiki MV. The 3 builders. Iron — Makes haemoglobin. Vitamin B12 — Helps make red blood cells. Folate — Helps make red blood cells."
+    },
+    {
+     "file": "day05/day05_s3_feed_en.jpg",
+     "alt": "Ley Thiki MV. Cause 1. Not enough in. Eating too little of these, or not absorbing them well, can cause anaemia. Low iron is the most common nutritional cause."
+    },
+    {
+     "file": "day05/day05_s1_feed_dv.jpg",
+     "alt": "Ley Thiki MV. ލޭ އުފެއްދުމަށް ހަށިގަނޑަށް 3 އެއްޗެއް ބޭނުންވޭ. ތިބާއަށް އެކަށީގެންވާ ވަރަށް ލިބޭތަ؟."
+    },
+    {
+     "file": "day05/day05_s2_feed_dv.jpg",
+     "alt": "Ley Thiki MV. 3 މާއްދާ. ދަގަނޑު (އައިރަން) — ހީމޮގްލޮބިން އުފައްދައިދޭ. ވިޓަމިން B12 — ރަތް ލޭގެ ސެލް އުފެއްދުމަށް އެހީވޭ. ފޯލޭޓް — ރަތް ލޭގެ ސެލް އުފެއްދުމަށް އެހީވޭ."
+    },
+    {
+     "file": "day05/day05_s3_feed_dv.jpg",
+     "alt": "Ley Thiki MV. ސަބަބު 1. އެކަށީގެންވާ ވަރަށް ނުލިބުން. މި މާއްދާތައް ކާނާއިން މަދުން ލިބުން ނުވަތަ ހަށިގަނޑަށް ރަނގަޅަށް ނުލިބުމުން އެނީމިއާ ޖެހިދާނެ. ކާނާއާ ގުޅޭ އެންމެ އާންމު ސަބަބަކީ ދަގަނޑު މަދުވުމެވެ."
+    }
+   ],
+   "stories": [
+    "day05/day05_s1_story_en.jpg",
+    "day05/day05_s2_story_en.jpg",
+    "day05/day05_s3_story_en.jpg",
+    "day05/day05_s1_story_dv.jpg",
+    "day05/day05_s2_story_dv.jpg",
+    "day05/day05_s3_story_dv.jpg"
+   ],
+   "caption": "Your body needs 3 things to build blood: iron, vitamin B12 and folate. 🩸 Too little of them, or poor absorption, can cause anaemia. Low iron is the most common nutritional cause. Which of the three did you not know about?\n\nލޭ އުފެއްދުމަށް ހަށިގަނޑަށް 3 އެއްޗެއް ބޭނުންވޭ: ދަގަނޑު، ވިޓަމިން B12 އަދި ފޯލޭޓް. 🩸 މި މާއްދާތައް މަދުވުމުން އެނީމިއާ ޖެހިދާނެ.\n\nEnglish slides first, then ދިވެހި — keep swiping.\nInformation only — see a doctor for advice.\n\n#Anaemia #Iron #Maldives #LeyThikiMV"
+  },
+  "6": {
+   "title": "Where does the blood go?",
+   "carousel": [
+    {
+     "file": "day06/day06_s1_feed_en.jpg",
+     "alt": "Ley Thiki MV. Where does the blood go?. 3 more causes."
+    },
+    {
+     "file": "day06/day06_s2_feed_en.jpg",
+     "alt": "Ley Thiki MV. Cause 2. Losing blood. Heavy periods are a common reason. Infections such as hookworm can also drain nutrients over time."
+    },
+    {
+     "file": "day06/day06_s3_feed_en.jpg",
+     "alt": "Ley Thiki MV. Cause 3. Inherited conditions. Thalassaemia and sickle cell disease are passed down in families. They change how haemoglobin is made or shaped."
+    },
+    {
+     "file": "day06/day06_s4_feed_en.jpg",
+     "alt": "Ley Thiki MV. Cause 4. Long-term illness. Infections, inflammation and chronic diseases can also lead to anaemia."
+    },
+    {
+     "file": "day06/day06_s1_feed_dv.jpg",
+     "alt": "Ley Thiki MV. ލޭ ދަނީ ކޮންތާކަށް؟. އިތުރު 3 ސަބަބު."
+    },
+    {
+     "file": "day06/day06_s2_feed_dv.jpg",
+     "alt": "Ley Thiki MV. ސަބަބު 2. ލޭ ގެއްލުން. މައްސަރު ކަންތަކުގައި ލޭ ގިނައިން އައުމަކީ އާންމު ސަބަބެކެވެ. ފަނި ފަދަ ބައެއް އިންފެކްޝަންތަކުންވެސް ވަގުތުގެ ތެރޭގައި ހަށިގަނޑުގެ މާއްދާތައް ގެއްލެއެވެ."
+    },
+    {
+     "file": "day06/day06_s3_feed_dv.jpg",
+     "alt": "Ley Thiki MV. ސަބަބު 3. ވާރުތަވާ ބަލިތައް. ތެލެސީމިއާއާއި ސިކަލް ސެލް ބައްޔަކީ އާއިލާއިން ވާރުތަވާ ބަލިތަކެކެވެ. މި ބަލިތަކުން ހީމޮގްލޮބިން އުފެދޭ ގޮތަށް ނުވަތަ ބައްޓަމަށް ބަދަލު އާދެއެވެ."
+    },
+    {
+     "file": "day06/day06_s4_feed_dv.jpg",
+     "alt": "Ley Thiki MV. ސަބަބު 4. ދިގު މުއްދަތުގެ ބަލިތައް. އިންފެކްޝަންތަކާއި، ދުޅަވުމާއި، ދިގު މުއްދަތުގެ ބަލިތަކުންވެސް އެނީމިއާ ޖެހިދާނެ."
+    }
+   ],
+   "stories": [
+    "day06/day06_s1_story_en.jpg",
+    "day06/day06_s2_story_en.jpg",
+    "day06/day06_s3_story_en.jpg",
+    "day06/day06_s4_story_en.jpg",
+    "day06/day06_s1_story_dv.jpg",
+    "day06/day06_s2_story_dv.jpg",
+    "day06/day06_s3_story_dv.jpg",
+    "day06/day06_s4_story_dv.jpg"
+   ],
+   "caption": "Where does the blood go? 3 more causes of anaemia. 🩸 Losing blood (heavy periods are a common reason), inherited conditions like thalassaemia and sickle cell disease, and long-term illness. Questions? Ask in the comments.\n\nލޭ ދަނީ ކޮންތާކަށް؟ އެނީމިއާގެ އިތުރު 3 ސަބަބު. 🩸 ލޭ ގެއްލުން، ތެލެސީމިއާ ފަދަ ވާރުތަވާ ބަލިތައް، އަދި ދިގު މުއްދަތުގެ ބަލިތައް. ސުވާލެއް އޮތްނަމަ ކޮމެންޓް ކޮށްލާ.\n\nEnglish slides first, then ދިވެހި — keep swiping.\nInformation only — see a doctor for advice.\n\n#Anaemia #Thalassaemia #Maldives #LeyThikiMV"
+  },
+  "7": {
+   "title": "Quiz time!",
+   "carousel": [
+    {
+     "file": "day07/day07_s1_feed_en.jpg",
+     "alt": "Ley Thiki MV. Quiz time!. 3 questions. Week 1 recap."
+    },
+    {
+     "file": "day07/day07_s2_feed_en.jpg",
+     "alt": "Ley Thiki MV. Question 1/3. Haemoglobin carries…. Sugar. Oxygen. Water."
+    },
+    {
+     "file": "day07/day07_s3_feed_en.jpg",
+     "alt": "Ley Thiki MV. Question 2/3. The most common nutritional cause is low…. Iron. Calcium. Vitamin D."
+    },
+    {
+     "file": "day07/day07_s4_feed_en.jpg",
+     "alt": "Ley Thiki MV. Question 3/3. Anaemia is…. One single disease. A sign of an underlying problem. Always inherited. Comment your 3 answers. We reveal them in tomorrow's story."
+    },
+    {
+     "file": "day07/day07_s1_feed_dv.jpg",
+     "alt": "Ley Thiki MV. ކުއިޒް ވަގުތު!. 3 ސުވާލު. ހަފްތާ 1 ."
+    },
+    {
+     "file": "day07/day07_s2_feed_dv.jpg",
+     "alt": "Ley Thiki MV. ސުވާލު 1/3. ހީމޮގްލޮބިން އުފުލަނީ…. ހަކުރު. އޮކްސިޖަން. ފެން."
+    },
+    {
+     "file": "day07/day07_s3_feed_dv.jpg",
+     "alt": "Ley Thiki MV. ސުވާލު 2/3. ކާނާއާ ގުޅޭ އެންމެ އާންމު ސަބަބަކީ ކޮން މާއްދާއެއް މަދުވުން؟. ދަގަނޑު. ކެލްސިއަމް. ވިޓަމިން D."
+    },
+    {
+     "file": "day07/day07_s4_feed_dv.jpg",
+     "alt": "Ley Thiki MV. ސުވާލު 3/3. އެނީމިއާއަކީ…. ވަކި އެއް ބައްޔެއް. އެހެން މައްސަލައެއްގެ އަލާމާތެއް. އަބަދުވެސް ވާރުތަވާ ކަމެއް. ތިން ޖަވާބު ކޮމެންޓް ކޮށްލާ. ޖަވާބުތައް މާދަމާގެ ސްޓޯރީގައި."
+    }
+   ],
+   "stories": [
+    "day07/day07_s1_story_en.jpg",
+    "day07/day07_s2_story_en.jpg",
+    "day07/day07_s3_story_en.jpg",
+    "day07/day07_s4_story_en.jpg",
+    "day07/day07_s1_story_dv.jpg",
+    "day07/day07_s2_story_dv.jpg",
+    "day07/day07_s3_story_dv.jpg",
+    "day07/day07_s4_story_dv.jpg"
+   ],
+   "caption": "Quiz time! 3 questions from week 1. 🩸 Comment your answers like this: B-A-C. We reveal them in tomorrow's story. No scrolling back!\n\nކުއިޒް ވަގުތު! ހަފްތާ 1 ގެ 3 ސުވާލު. 🩸 ޖަވާބުތައް ކޮމެންޓް ކޮށްލާ. ޖަވާބުތައް މާދަމާގެ ސްޓޯރީގައި.\n\nEnglish slides first, then ދިވެހި — keep swiping.\nInformation only — see a doctor for advice.\n\n#Anaemia #Quiz #Maldives #LeyThikiMV"
+  }
+ }
+}
