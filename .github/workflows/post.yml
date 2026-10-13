@@ -4,13 +4,14 @@ on:
     - cron: "0 15 * * *"   # 15:00 UTC = 20:00 Maldives time. GitHub may start a few minutes late.
   workflow_dispatch:
     inputs:
+      mode:
+        description: "check = test the token only · dry-run = show what would be posted · post = really post"
+        type: choice
+        options: [check, dry-run, post]
+        default: check
       day:
-        description: "Day number to post (blank = today's day)"
+        description: "Day number (blank = today's day)"
         required: false
-      dry_run:
-        description: "Dry run (show what would be posted, post nothing)"
-        type: boolean
-        default: true
 permissions:
   contents: write
 concurrency: instagram-post
@@ -29,7 +30,8 @@ jobs:
         run: |
           ARGS=""
           if [ -n "${{ inputs.day }}" ]; then ARGS="$ARGS --day ${{ inputs.day }}"; fi
-          if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          if [ "${{ inputs.mode }}" = "check" ]; then ARGS="--check"; fi
+          if [ "${{ inputs.mode }}" = "dry-run" ]; then ARGS="$ARGS --dry-run"; fi
           python publish.py $ARGS
       - name: Save what was posted
         if: always()

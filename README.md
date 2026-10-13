@@ -17,7 +17,7 @@ Posts one day of the anaemia series to @leythikimv every evening without anyone 
 3. GitHub: create a PUBLIC repository named `leythikimv-publisher` and push this folder to it.
 4. In the repository: Settings → Secrets and variables → Actions → New repository secret,
    name `IG_ACCESS_TOKEN`, value = the token from step 2.
-5. Test: Actions tab → "Post to Instagram" → Run workflow → leave "Dry run" ticked. It prints what would be posted.
+5. Test: Actions tab → "Post to Instagram" → Run workflow → mode "check" confirms the token; "dry-run" prints what would be posted; "post" really posts.
 
 ## Every week
 - Approve days by adding their numbers to `approved_days` in `schedule.json`; set `start_date` once (YYYY-MM-DD).

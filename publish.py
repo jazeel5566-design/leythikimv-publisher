@@ -4,6 +4,7 @@
   python publish.py                 post today's day (Maldives time) if it is approved and not posted yet
   python publish.py --day 3         post a specific day
   python publish.py --dry-run       show exactly what would be sent; nothing is posted
+  python publish.py --check         test the access token: prints the account it belongs to; nothing is posted
 
 Environment:
   IG_ACCESS_TOKEN  long-lived Instagram user token with instagram_business_content_publish   (required unless --dry-run)
@@ -62,7 +63,13 @@ def publish(user, cid, dry):
 
 def main():
     a = argparse.ArgumentParser(); a.add_argument('--day', type=int); a.add_argument('--dry-run', action='store_true')
+    a.add_argument('--check', action='store_true')
     o = a.parse_args(); dry = o.dry_run
+    if o.check:
+        if not os.environ.get('IG_ACCESS_TOKEN'): sys.exit('IG_ACCESS_TOKEN is not set')
+        me = api('GET', os.environ.get('IG_USER_ID', 'me'), {'fields': 'user_id,username,account_type'}, False)
+        print(f"✓ Token works. Account: @{me.get('username')} ({me.get('account_type')}), id {me.get('user_id')}")
+        return
     sched = json.loads((HERE / 'schedule.json').read_text(encoding='utf-8'))
     sp = HERE / 'state.json'
     state = json.loads(sp.read_text(encoding='utf-8')) if sp.exists() else {}
