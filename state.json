@@ -13,5 +13,12 @@
  },
  "_notes": {
   "day2": "Day 2 was posted early by a manual run on 14 Oct 13:16 MVT (carousel 18046625078818537); the user is deleting it, so the record was cleared to let the scheduled 20:00 run post it properly. If it is still on the account at 20:00, the account check skips it."
+ },
+ "extra:wtd-2026": {
+  "carousel_id": "18000645095811253",
+  "stories": [
+   "18099523433646360",
+   "17896044444678395"
+  ]
  }
 }
