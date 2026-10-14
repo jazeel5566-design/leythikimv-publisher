@@ -111,6 +111,15 @@ def post(d, key, label, state, sp, dry):
     for f in [x['file'] for x in d['carousel']] + d.get('stories', []):
         if not (HERE / 'media' / f).exists(): sys.exit(f'Missing media file: {f}')
 
+    if not st.get('carousel_id') and not dry:
+        # second safety net: never trust the record alone — look at what is already on the account
+        recent = api('GET', f'{user}/media', {'fields': 'id,caption,timestamp', 'limit': '25'}, False).get('data', [])
+        key_text = d['caption'].strip()[:120]
+        same = [m for m in recent if (m.get('caption') or '').strip()[:120] == key_text]
+        if same:
+            st['carousel_id'] = same[0]['id']; st['stories'] = d.get('stories', []); save()
+            print(f'{label}: an identical post is already on Instagram ({same[0]["id"]}, {same[0].get("timestamp")}) — not posting again.')
+            return
     if st.get('carousel_id'):
         print(f'{label}: carousel already posted ({st["carousel_id"]})')
     else:

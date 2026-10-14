@@ -23,6 +23,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # always the latest schedule and posting record, even when an old run is re-run
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
