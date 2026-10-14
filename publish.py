@@ -3,6 +3,7 @@
 
   python publish.py                 post today's day (Maldives time) if it is approved and not posted yet
   python publish.py --day 3         post a specific day
+  python publish.py --extra NAME    post a one-off post from schedule.json "extras" (must have "approved": true)
   python publish.py --dry-run       show exactly what would be sent; nothing is posted
   python publish.py --check         test the access token: prints the account it belongs to; nothing is posted
 
@@ -64,6 +65,7 @@ def publish(user, cid, dry):
 def main():
     a = argparse.ArgumentParser(); a.add_argument('--day', type=int); a.add_argument('--dry-run', action='store_true')
     a.add_argument('--check', action='store_true')
+    a.add_argument('--extra')
     o = a.parse_args(); dry = o.dry_run
     if o.check:
         if not os.environ.get('IG_ACCESS_TOKEN'): sys.exit('IG_ACCESS_TOKEN is not set')
@@ -73,6 +75,11 @@ def main():
     sched = json.loads((HERE / 'schedule.json').read_text(encoding='utf-8'))
     sp = HERE / 'state.json'
     state = json.loads(sp.read_text(encoding='utf-8')) if sp.exists() else {}
+    if o.extra:
+        d = sched.get('extras', {}).get(o.extra)
+        if not d: sys.exit(f'No extra post named {o.extra}')
+        if not d.get('approved') and not dry: sys.exit(f'Extra post {o.extra} is not approved — not posting.')
+        return post(d, f'extra:{o.extra}', o.extra, state, sp, dry)
     day = o.day
     if day is None:
         if not sched.get('start_date'):
@@ -88,6 +95,9 @@ def main():
         if dry or o.day is None and day < 1:
             print(msg); return
         sys.exit(msg)   # fail loudly so a missed approval is noticed
+    return post(d, str(day), f'Day {day}', state, sp, dry)
+
+def post(d, key, label, state, sp, dry):
     base = os.environ.get('MEDIA_BASE_URL', '').rstrip('/')
     if not base:
         if not dry: sys.exit('MEDIA_BASE_URL is not set')
@@ -95,16 +105,16 @@ def main():
     if not dry and not os.environ.get('IG_ACCESS_TOKEN'):
         sys.exit('IG_ACCESS_TOKEN is not set')
     user = os.environ.get('IG_USER_ID', 'me')
-    st = state.setdefault(str(day), {})
+    st = state.setdefault(key, {})
     def save():
         if not dry: sp.write_text(json.dumps(state, indent=1), encoding='utf-8')
     for f in [x['file'] for x in d['carousel']] + d.get('stories', []):
         if not (HERE / 'media' / f).exists(): sys.exit(f'Missing media file: {f}')
 
     if st.get('carousel_id'):
-        print(f'Day {day}: carousel already posted ({st["carousel_id"]})')
+        print(f'{label}: carousel already posted ({st["carousel_id"]})')
     else:
-        print(f'Day {day}: carousel with {len(d["carousel"])} slides')
+        print(f'{label}: carousel with {len(d["carousel"])} slides')
         kids = [container(user, {'image_url': f'{base}/{x["file"]}', 'is_carousel_item': 'true'}, dry, x.get('alt')) for x in d['carousel']]
         cid = api('POST', f'{user}/media', {'media_type': 'CAROUSEL', 'children': ','.join(kids), 'caption': d['caption']}, dry)['id']
         st['carousel_id'] = publish(user, cid, dry); save()
@@ -114,7 +124,7 @@ def main():
         sid = publish(user, container(user, {'image_url': f'{base}/{f}', 'media_type': 'STORIES'}, dry), dry)
         done.append(sid); save()
         print(f'  ✓ story published: {f}')
-    print(f'Day {day}: done' + (' (dry run — nothing was posted)' if dry else ''))
+    print(f'{label}: done' + (' (dry run — nothing was posted)' if dry else ''))
 
 if __name__ == '__main__':
     try:

@@ -12,6 +12,9 @@ on:
       day:
         description: "Day number (blank = today's day)"
         required: false
+      extra:
+        description: "One-off post name from schedule.json extras (e.g. wtd-2026); leave blank for series days"
+        required: false
 permissions:
   contents: write
 concurrency: instagram-post
@@ -30,6 +33,7 @@ jobs:
         run: |
           ARGS=""
           if [ -n "${{ inputs.day }}" ]; then ARGS="$ARGS --day ${{ inputs.day }}"; fi
+          if [ -n "${{ inputs.extra }}" ]; then ARGS="$ARGS --extra ${{ inputs.extra }}"; fi
           if [ "${{ inputs.mode }}" = "check" ]; then ARGS="--check"; fi
           if [ "${{ inputs.mode }}" = "dry-run" ]; then ARGS="$ARGS --dry-run"; fi
           python publish.py $ARGS

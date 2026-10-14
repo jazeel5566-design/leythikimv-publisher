@@ -52,7 +52,7 @@ def main():
         caption = f'{en_body.strip()}\n\n{dv_body}\n\nEnglish slides first, then ދިވެހި — keep swiping.\nInformation only — see a doctor for advice.\n\n#Anaemia{en_tags}'
         days[str(n)] = dict(title=plain(slides[0]['en']['h']), carousel=car, stories=stories, caption=caption)
     sched = dict(account='@leythikimv', start_date=old.get('start_date'), post_time_maldives=old.get('post_time_maldives', '20:00'),
-                 approved_days=old.get('approved_days', []), days=days)
+                 approved_days=old.get('approved_days', []), days=days, extras=old.get('extras', {}))
     sp.write_text(json.dumps(sched, ensure_ascii=False, indent=1), encoding='utf-8')
     print(f'schedule.json: days {", ".join(days)} · approved {sched["approved_days"]} · start {sched["start_date"]}')
 
