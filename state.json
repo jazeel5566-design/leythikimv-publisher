@@ -10,5 +10,16 @@
    "17913466161287576"
   ],
   "note": "A re-run of the 13 Oct Day 1 run on 14 Oct 08:11 UTC (old commit, before this record existed) posted Day 1 a second time; the duplicate must be deleted in the app."
+ },
+ "2": {
+  "carousel_id": "18046625078818537",
+  "stories": [
+   "day02/day02_s1_story_en.jpg",
+   "day02/day02_s2_story_en.jpg",
+   "day02/day02_s3_story_en.jpg",
+   "day02/day02_s1_story_dv.jpg",
+   "day02/day02_s2_story_dv.jpg",
+   "day02/day02_s3_story_dv.jpg"
+  ]
  }
 }
