@@ -20,5 +20,17 @@
    "18099523433646360",
    "17896044444678395"
   ]
+ },
+ "3": {
+  "carousel_id": "manual-2026-10-15",
+  "stories": [
+   "day03/day03_s1_story_en.jpg",
+   "day03/day03_s2_story_en.jpg",
+   "day03/day03_s3_story_en.jpg",
+   "day03/day03_s1_story_dv.jpg",
+   "day03/day03_s2_story_dv.jpg",
+   "day03/day03_s3_story_dv.jpg"
+  ],
+  "note": "Posted manually from the phone on 15 Oct 2026 (Meta returned 'API access blocked'); recorded so the publisher never re-posts Day 3."
  }
 }
