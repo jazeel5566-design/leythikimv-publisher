@@ -32,5 +32,31 @@
    "day03/day03_s3_story_dv.jpg"
   ],
   "note": "Posted manually from the phone on 15 Oct 2026 (Meta returned 'API access blocked'); recorded so the publisher never re-posts Day 3."
+ },
+ "4": {
+  "carousel_id": "manual-16-Oct",
+  "stories": [
+   "day04/day04_s1_story_en.jpg",
+   "day04/day04_s2_story_en.jpg",
+   "day04/day04_s3_story_en.jpg",
+   "day04/day04_s4_story_en.jpg",
+   "day04/day04_s1_story_dv.jpg",
+   "day04/day04_s2_story_dv.jpg",
+   "day04/day04_s3_story_dv.jpg",
+   "day04/day04_s4_story_dv.jpg"
+  ],
+  "note": "Posted by hand by the user (16 Oct 2026; Meta API access blocked); recorded so the publisher never re-posts it."
+ },
+ "5": {
+  "carousel_id": "manual-17-Oct",
+  "stories": [
+   "day05/day05_s1_story_en.jpg",
+   "day05/day05_s2_story_en.jpg",
+   "day05/day05_s3_story_en.jpg",
+   "day05/day05_s1_story_dv.jpg",
+   "day05/day05_s2_story_dv.jpg",
+   "day05/day05_s3_story_dv.jpg"
+  ],
+  "note": "Posted by hand by the user (17 Oct 2026; Meta API access blocked); recorded so the publisher never re-posts it."
  }
 }
