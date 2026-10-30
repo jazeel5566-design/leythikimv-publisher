@@ -51,6 +51,8 @@ def main():
         stories += [f'day{n:02d}/day{n:02d}_s{i}_story_{lang}.jpg' for lang in ('en', 'dv') for i in range(1, k + 1)]
         en, dv = cap[n]
         en_body, _, en_tags = en.rpartition('#Anaemia'); dv_body = dv.split('#')[0].strip()
+        if not _:   # no #Anaemia tag in this caption: keep the text, move its own tags after #Anaemia
+            en_body, en_tags = en.split('#')[0], ' ' + ' '.join(t for t in en.split() if t.startswith('#'))
         caption = f'{en_body.strip()}\n\n{dv_body}\n\nEnglish slides first, then ދިވެހި — keep swiping.\nInformation only — see a doctor for advice.\n\n#Anaemia{en_tags}'
         days[str(n)] = dict(title=plain(slides[0]['en']['h']), carousel=car, stories=stories, caption=caption)
     sched = dict(account='@leythikimv', start_date=old.get('start_date'), post_time_maldives=old.get('post_time_maldives', '20:00'),
