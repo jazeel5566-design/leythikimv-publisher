@@ -697,15 +697,15 @@
     },
     {
      "file": "day17/day17_s1_feed_dv.jpg",
-     "alt": "Ley Thiki MV. ފަތްޕިލާއިން ލިބޭ ވިޓަމިން. ފޯލޭޓް މަދުވުން."
+     "alt": "Ley Thiki MV. ފެހި ފަތާއި ތަރުކާރީން ލިބޭ މުހިންމު ވިޓަމިން. ފޯލޭޓް މަދުވުން."
     },
     {
      "file": "day17/day17_s2_feed_dv.jpg",
-     "alt": "Ley Thiki MV. ވައްތަރު 3. ފޯލޭޓް ލިބޭ ތަންތަން. ފަތްޕިލާ — މުރަނގަ ފަތް ފަދަ. ދަލާއި ބޭންސް. މޭވާ — އޮރެންޖު ފަދަ."
+     "alt": "Ley Thiki MV. ވައްތަރު 3. ފޯލޭޓް ލިބޭ މަޞްދަރުތައް. ފެހިކަންގަދަ ފަތުގެ ބާވަތްތައް — މިސާލަކަށް މުރަނގަފަތް. ބީންސް އަދި ތޮޅީގެ ބާވަތްތައް — އޭގެ ތެރޭގައި މުގުވެސް ހިމެނޭހެން. މޭވާގެ ބާވަތްތައް — ހާއްސަކޮށް އޮރެންޖު."
     },
     {
      "file": "day17/day17_s3_feed_dv.jpg",
-     "alt": "Ley Thiki MV. މުހިންމު ސަބަބު. ބަލިވެއިމުގެ ކުރިންނާއި ތެރޭގައި. ފޯލޭޓަކީ ރަތް ލޭގެ ސެލް އުފެއްދުމަށް އެހީވެދީ، ބަނޑުގައި ތިބި ކުއްޖާގެ ސިކުނޑިއާއި ކަށިމަތި ރައްކާތެރިކުރާ ވިޓަމިނެކެވެ. ބަލިވެއިމުގެ ކުރިންނާއި ތެރޭގައި ފޯލިކް އެސިޑް ބޭނުންކުރުމަށް ޑޮކްޓަރުން ލަފާދެއެވެ."
+     "alt": "Ley Thiki MV. މުހިންމު ސަބަބު. ބަލިވެ އިނުމުގެ ކުރިން އަދި ބަލިވެ އިންނަ ދުވަސްވަރު. ފޯލޭޓަކީ ލޭގެ ރަތް ސެލްތައް އުފެއްދުމަށް އެހީވެދޭ މާއްދާއެއް. ބަނޑުގައިވާ ދަރިފުޅުގެ ސިކުނޑިއާއި މައިބަދައިގެ ނާރުތައް ދުޅަހެޔޮކަންމަތީ އުފެދި ބޮޑުވުމަށް ރައްކާތެރިކަން ދޭ. ޑޮކްޓަރުންގެ ލަފާ: ބަލިވެ އިނުމުގެ ކުރިންނާއި ބަލިވެ އިންނަ ދުވަސްވަރު އިތުރަށް ފޯލިކް އެސިޑް ބޭނުންކުރަންވާނެ."
     }
    ],
    "stories": [
@@ -716,7 +716,7 @@
     "day17/day17_s2_story_dv.jpg",
     "day17/day17_s3_story_dv.jpg"
    ],
-   "caption": "The vitamin your greens give you. 🩸 Folate comes from leafy greens like moringa, beans, dhal and fruit. It helps make red blood cells and protects a baby's growing brain and spine, which is why doctors advise folic acid before and during pregnancy. #Folate\n\nފަތްޕިލާއިން ލިބޭ ވިޓަމިން. 🩸 ފޯލޭޓް ލިބޭނީ މުރަނގަ ފަތް ފަދަ ފަތްޕިލާއާއި، ދަލާއި، މޭވާއިން. ބަލިވެއިމުގެ ކުރިންނާއި ތެރޭގައި މުހިންމު.\n\nEnglish slides first, then ދިވެހި — keep swiping.\nInformation only — see a doctor for advice.\n\n#Anaemia #Maldives #LeyThikiMV"
+   "caption": "The vitamin your greens give you. 🩸 Folate comes from leafy greens like moringa, beans, dhal and fruit. It helps make red blood cells and protects a baby's growing brain and spine, which is why doctors advise folic acid before and during pregnancy. #Folate\n\nފެހި ފަތާއި ތަރުކާރީން ލިބޭ މުހިންމު ވިޓަމިން: ފޯލޭޓް. 🩸 ފޯލޭޓަކީ ލޭގެ ރަތް ސެލްތައް އުފެއްދުމަށް އެހީވެދޭ މާއްދާއެއް. ޑޮކްޓަރުންގެ ލަފާ: ބަލިވެ އިނުމުގެ ކުރިންނާއި ބަލިވެ އިންނަ ދުވަސްވަރު އިތުރަށް ފޯލިކް އެސިޑް ބޭނުންކުރަންވާނެ.\n\nEnglish slides first, then ދިވެހި — keep swiping.\nInformation only — see a doctor for advice.\n\n#Anaemia #Maldives #LeyThikiMV"
   },
   "18": {
    "title": "About 1 in 6 Maldivians carries it.",
